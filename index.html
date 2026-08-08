@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preserving Independent Thought in the Age of AI | Benjamin Paul</title>
+  <meta name="description" content="A student research summary: large language models can improve an individual's work while reducing the diversity of ideas a group produces. Six sources, one tradeoff, and practical ways to preserve independent thought." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- slim anchor nav: plain text, no branding -->
+  <nav class="topbar">
+    <span class="topbar-note">A research summary · Benjamin Paul · ENGL 2010</span>
+    <div class="topbar-links">
+      <a href="#tradeoff">The tradeoff</a>
+      <a href="#research">The research</a>
+      <a href="#habits">Strategies</a>
+      <a href="#prompts">Prompts</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#sources">Sources</a>
+      <a href="#reflection">Reflection</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="band hero">
+    <svg class="hero-bg" viewBox="0 0 600 560" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 30 C 200 30, 330 268, 430 280" />
+      <path d="M0 115 C 200 115, 330 272, 430 280" />
+      <path d="M0 200 C 200 200, 330 276, 430 280" />
+      <path d="M0 370 C 200 370, 330 284, 430 280" />
+      <path d="M0 455 C 200 455, 330 288, 430 280" />
+      <path d="M0 540 C 200 540, 330 292, 430 280" />
+      <path class="hero-bg-accent" d="M0 285 C 200 285, 330 280, 430 280 L 600 280" />
+    </svg>
+    <div class="wrap">
+      <div class="hero-content">
+        <h1>Preserving Independent Thought in the Age of AI</h1>
+        <p class="hero-deck">Since their introduction, large language models have been rapidly adopted to assist with writing, brainstorming, and research — and while there are clear benefits, early research suggests that societal adoption may pose some unique challenges.</p>
+        <ul class="hero-points">
+          <li>An emphasis has been placed on the increase in<strong> individual productivity and work quality</strong> that these tools can bring</li>
+          <li>Dependence on AI can change creative approaches, cultural expression, personal opinions, and the research topics society chooses to explore</li>
+          <li>These effects are<strong> not unavoidable</strong> because the way people use AI can help preserve or even increase diversity</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ THE TRADEOFF ============ -->
+  <section class="band" id="tradeoff">
+    <div class="wrap">
+      <h2>Individual benefits and collective costs</h2>
+      <p class="section-intro">While the widespread use of LLMs can enhance the creativity, productivity, and idea generation of individuals, it can simultaneously diminish the diversity of ideas produced when groups of people rely on the same systems to generate ideas.</p>
+
+      <div class="two-col">
+        <div class="col-card col-you">
+          <svg class="col-icon" viewBox="0 0 120 80" aria-hidden="true">
+            <circle cx="18" cy="64" r="7" />
+            <path class="arrow" d="M28 59 L87 26" />
+            <path class="arrow-head" d="M87 26 L81 34 M87 26 L77 26.5" />
+            <circle class="accent-dot" cx="98" cy="20" r="9" />
+          </svg>
+          <h3>For the individual: clear benefits</h3>
+          <ul>
+            <li>Increased individual productivity and work quality</li>
+            <li>Stronger stories for writers and faster progress for researchers</li>
+            <li>Improved ratings for novelty, usefulness, writing quality, and enjoyment</li>
+            <li>A competitive advantage that creates a strong incentive for individual adoption</li>
+          </ul>
+        </div>
+        <div class="col-card col-group">
+          <svg class="col-icon" viewBox="0 0 120 80" aria-hidden="true">
+            <path d="M12 12 C 55 12, 75 38, 108 40" />
+            <path d="M12 34 C 55 34, 75 39, 108 40" />
+            <path d="M12 56 C 55 56, 75 41, 108 40" />
+            <path d="M12 76 C 55 76, 75 42, 108 40" />
+          </svg>
+          <h3>For the group: a narrowing effect</h3>
+          <ul>
+            <li>Many people receive ideas shaped by the same training data and defaults</li>
+            <li>The group's total creative output may become more concentrated around similar themes, structures, and starting ideas</li>
+            <li>Similar ideas that appear useful can replace less obvious alternatives that would otherwise be found</li>
+            <li>Any collective costs that emerge will likely be less visible at the individual level</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE RESEARCH ============ -->
+  <section class="band band-tint" id="research">
+    <div class="wrap">
+      <h2>What the research adds up to</h2>
+      <p class="section-intro">The argument on this page comes from five empirical studies and one theoretical model. The full summaries, including each study's limitations, are in the expandable section below.</p>
+
+      <div class="finding-list">
+        <div class="finding">
+          <span class="finding-num">01</span>
+          <div>
+            <h3>The individual benefits are real</h3>
+            <p>The competitive advantage gained from using LLM tools creates a strong incentive for individual adoption. Participants with access to AI ideas improved, on average, in ratings for novelty, usefulness, writing quality, and enjoyment (<a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank" rel="noreferrer">Doshi &amp; Hauser, 2024</a>), and scientists associated with AI-augmented research published more papers, received more citations, and moved into project-leadership roles earlier (<a href="https://www.nature.com/articles/s41586-025-09922-y" target="_blank" rel="noreferrer">Hao et al., 2026</a>). A writer or researcher who sees immediate improvements in work quality and speed may be heavily motivated to adopt the technology.</p>
+          </div>
+        </div>
+        <div class="finding">
+          <span class="finding-num">02</span>
+          <div>
+            <h3>Groups relying on the same systems produce more similar ideas, and the influence is hard to notice</h3>
+            <p>AI-assisted stories received better evaluations, but they were also more similar to one another and to the AI ideas provided (<a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank" rel="noreferrer">Doshi &amp; Hauser, 2024</a>). Writing became more similar across cultural groups when participants had AI assistance, and Indian participants' writing moved closer to American styles more than the reverse (<a href="https://doi.org/10.1145/3706598.3713564" target="_blank" rel="noreferrer">Agarwal et al., 2025</a>). Participants given intentionally biased suggestions reported attitudes that had shifted toward the position favored by the AI, and most did not realize they had been influenced (<a href="https://doi.org/10.1126/sciadv.adw5578" target="_blank" rel="noreferrer">Williams-Ceci et al., 2026</a>). AI-augmented research also covered a smaller area of scientific topics (<a href="https://www.nature.com/articles/s41586-025-09922-y" target="_blank" rel="noreferrer">Hao et al., 2026</a>). Large numbers of users may receive similar ideas that appear useful but replace less obvious alternatives that would otherwise be found (<a href="https://www.pnas.org/doi/10.1073/pnas.2018340118" target="_blank" rel="noreferrer">Kleinberg &amp; Raghavan, 2021</a>).</p>
+          </div>
+        </div>
+        <div class="finding">
+          <span class="finding-num">03</span>
+          <div>
+            <h3>The narrowing is conditional and depends on how the tools are used</h3>
+            <p>One study mixed AI ideas into a larger stream of human ideas, and high exposure to those ideas increased both the overall diversity of the idea pool and the rate at which that diversity grew (<a href="https://doi.org/10.1145/3715928.3737481" target="_blank" rel="noreferrer">Ashkinaze et al., 2025</a>). This suggests that homogenization is conditional. AI may narrow thinking when it is used as a starting point or relied upon too heavily, but it may even increase diversity when it is used to introduce unusual possibilities during brainstorming.</p>
+          </div>
+        </div>
+      </div>
+
+      <details class="studies-detail">
+        <summary>The six sources in detail: methods, findings, and limitations</summary>
+        <div class="studies-body">
+
+      <p class="theme-label">Theme 1 · Writing &amp; creativity</p>
+
+      <!-- Study 1 -->
+      <div class="study-row">
+        <figure class="study-figure">
+          <svg viewBox="0 0 260 170" role="img" aria-label="Two clusters of dots: writing alone is spread out; writing with AI is rated higher but tightly clustered">
+            <g class="dots-plain">
+              <circle cx="48" cy="100" r="5"/><circle cx="75" cy="123" r="5"/><circle cx="33" cy="135" r="5"/>
+              <circle cx="91" cy="90" r="5"/><circle cx="61" cy="70" r="5"/><circle cx="98" cy="130" r="5"/>
+            </g>
+            <g class="dots-accent">
+              <circle cx="180" cy="52" r="5"/><circle cx="193" cy="60" r="5"/><circle cx="172" cy="64" r="5"/>
+              <circle cx="186" cy="72" r="5"/><circle cx="198" cy="47" r="5"/><circle cx="178" cy="42" r="5"/>
+            </g>
+            <text class="mid" x="65" y="158">writing alone</text>
+            <text class="mid" x="185" y="98">with AI ideas</text>
+            <text class="axis-note" x="12" y="18">↑ rated quality</text>
+          </svg>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">293 writers · 600 evaluators</p>
+          <h3>AI ideas improved stories while reducing their variety</h3>
+          <p><a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank" rel="noreferrer">Doshi and Hauser (2024)</a> studied 293 participants who wrote short stories with either no AI ideas, access to one GPT-4 idea, or access to as many as five.</p>
+          <ul>
+            <li>Participants with access to AI ideas improved, on average, in ratings for <strong>novelty, usefulness, writing quality, and enjoyment</strong></li>
+            <li>The largest of these benefits went to writers who had initially scored lower on the study's creativity measure</li>
+            <li>The stories were also more similar to one another and to the AI ideas provided. The researchers concluded that <strong>"generative AI–enabled stories are more similar to each other than stories by humans alone"</strong></li>
+            <li><em>Limitation:</em> The experiment focused on short fiction and one kind of evaluation, so it does not establish that all AI-assisted writing converges.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Study 2 -->
+      <div class="study-row row-flip">
+        <figure class="study-figure">
+          <svg viewBox="0 0 260 170" role="img" aria-label="Two lines converge, and the meeting point sits close to the US writing line: Indian writing bends far more">
+            <path class="line-plain" d="M20 46 C 110 46, 160 52, 240 54"/>
+            <path class="line-accent" d="M20 142 C 105 142, 155 64, 240 57"/>
+            <text x="24" y="32">US writing</text>
+            <text x="24" y="160">Indian writing</text>
+          </svg>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">118 writers · India &amp; the US</p>
+          <h3>Cultural expression converged toward a dominant style</h3>
+          <p><a href="https://doi.org/10.1145/3706598.3713564" target="_blank" rel="noreferrer">Agarwal et al. (2025)</a> conducted an experiment with 118 American and Indian participants completing culturally grounded writing tasks with or without LLM autocomplete suggestions from GPT-4o.</p>
+          <ul>
+            <li>Writing became more similar across the two cultural groups, with cross-cultural similarity increasing from <strong>0.48 without AI to 0.54 with AI</strong></li>
+            <li>The direction of the convergence was unequal: <strong>Indian participants' writing moved closer to American styles</strong> more than American writing moved toward Indian styles</li>
+            <li>Changes in cultural references, phrasing, and perspective could not be explained by grammar corrections alone. If AI guides users toward a dominant style, fewer cultural approaches and unique ideas may appear in the larger conversation</li>
+            <li><em>Limitation:</em> The study used a small sample, two countries, and one model, so the result should not be generalized to every culture or tool.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="theme-label">Theme 2 · Influence &amp; attention</p>
+
+      <!-- Study 3 -->
+      <div class="study-row">
+        <figure class="study-figure">
+          <svg viewBox="0 0 260 150" role="img" aria-label="An opinion scale from against to for: the attitude marker moved along the scale after writing with biased autocomplete">
+            <text class="mid" x="90" y="52">attitude before</text>
+            <text class="mid" x="180" y="52">attitude after</text>
+            <rect class="spectrum" x="30" y="79" width="200" height="6" rx="3"/>
+            <circle class="dot-plain" cx="90" cy="82" r="7"/>
+            <path class="line-accent" d="M101 82 L163 82"/>
+            <path class="arrow-head accent" d="M163 82 L154 77 M163 82 L154 87"/>
+            <circle class="accent-dot" cx="180" cy="82" r="7"/>
+            <text class="axis-note" x="30" y="112">against</text>
+            <text class="end axis-note" x="230" y="112">for</text>
+          </svg>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">2,582 participants · 2 experiments</p>
+          <h3>Biased suggestions shifted opinions without users noticing</h3>
+          <p><a href="https://doi.org/10.1126/sciadv.adw5578" target="_blank" rel="noreferrer">Williams-Ceci et al. (2026)</a> conducted two experiments with 2,582 participants who were instructed to write about social issues, some with autocomplete suggestions containing intentional bias.</p>
+          <ul>
+            <li>Participants who were given the suggestions reported attitudes that had <strong>shifted toward the position favored by the AI</strong></li>
+            <li>Most did not realize the suggestions were biased and did not believe the suggestions had influenced them</li>
+            <li>Even when participants were <strong>warned of the AI's bias</strong>, they still experienced a similar shift</li>
+            <li><em>Limitation:</em> The bias was intentionally one-sided, so the study shows this influence is possible without proving that ordinary assistance always persuades.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Study 4 -->
+      <div class="study-row row-flip">
+        <figure class="study-figure stat-figure">
+          <div class="stat-grid">
+            <div><strong>3.02×</strong><span>more papers published</span></div>
+            <div><strong>4.84×</strong><span>more citations</span></div>
+            <div class="stat-down"><strong>−4.63%</strong><span>area of scientific topics</span></div>
+            <div class="stat-down"><strong>−22%</strong><span>follow-on engagement</span></div>
+          </div>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">41.3 million papers · 1980–2025</p>
+          <h3>More individual impact, narrower collective focus</h3>
+          <p><a href="https://www.nature.com/articles/s41586-025-09922-y" target="_blank" rel="noreferrer">Hao et al. (2026)</a> used a language model to identify AI-augmented work across 41.3 million natural-science papers published between 1980 and 2025.</p>
+          <ul>
+            <li>Scientists associated with AI-augmented research published more papers, received more citations, and moved into <strong>project-leadership roles earlier</strong></li>
+            <li>AI-augmented research covered a <strong>4.63 percent smaller area of scientific topics</strong> and was associated with 22 percent less follow-on engagement from other researchers</li>
+            <li>The authors concluded that AI tends to favor data-rich areas where its tools are easiest to apply. If research increasingly focuses on established questions, society may lose discoveries that only emerge from less established subjects</li>
+            <li><em>Limitation:</em> The findings are observational and cover AI tools broadly. They do not focus on generative writing alone.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="theme-label">Theme 3 · Groups &amp; shared systems</p>
+
+      <!-- Study 5 -->
+      <div class="study-row">
+        <figure class="study-figure">
+          <svg viewBox="0 0 260 170" role="img" aria-label="Two idea pools compared: a small circle of human ideas alone, and a wider circle when AI examples were added to the mix">
+            <circle class="pool" cx="62" cy="78" r="34"/>
+            <g class="dots-plain">
+              <circle cx="52" cy="68" r="4"/><circle cx="72" cy="86" r="4"/><circle cx="60" cy="90" r="4"/>
+              <circle cx="70" cy="64" r="4"/><circle cx="50" cy="84" r="4"/>
+            </g>
+            <circle class="pool pool-wide" cx="185" cy="78" r="56"/>
+            <g class="dots-plain">
+              <circle cx="174" cy="70" r="4"/><circle cx="194" cy="88" r="4"/><circle cx="182" cy="92" r="4"/>
+              <circle cx="192" cy="62" r="4"/><circle cx="172" cy="88" r="4"/>
+            </g>
+            <g class="dots-accent">
+              <circle cx="152" cy="45" r="4"/><circle cx="220" cy="53" r="4"/>
+              <circle cx="214" cy="108" r="4"/><circle cx="150" cy="106" r="4"/>
+            </g>
+            <text class="mid" x="62" y="132">humans only</text>
+            <text class="mid" x="185" y="152">humans + AI examples</text>
+          </svg>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">844 participants · 48 countries</p>
+          <h3>Homogenization depends on how the tool is used</h3>
+          <p><a href="https://doi.org/10.1145/3715928.3737481" target="_blank" rel="noreferrer">Ashkinaze et al. (2025)</a> studied 844 participants from 48 countries who completed variations of the Alternate Uses Task after seeing examples created by AI or by earlier participants.</p>
+          <ul>
+            <li>High exposure to AI ideas increased both <strong>the overall diversity of the idea pool</strong> and the rate at which that diversity grew</li>
+            <li>Surprisingly, it did not improve the creativity of individual ideas</li>
+            <li>Rather than relying on a single AI-generated starting point or continuous autocomplete suggestions, the study <strong>mixed AI ideas into a larger stream of human ideas</strong></li>
+            <li><em>Limitation:</em> This was one short brainstorming task with a volunteer sample. It shows that homogenization is conditional.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Study 6 -->
+      <div class="study-row row-flip">
+        <figure class="study-figure">
+          <svg viewBox="0 0 260 170" role="img" aria-label="Four person dots feed into one shared tool; every path out of the tool leads to the same two chosen options, while a third option is overlooked">
+            <g class="dots-plain">
+              <circle cx="26" cy="30" r="6"/><circle cx="26" cy="64" r="6"/><circle cx="26" cy="98" r="6"/><circle cx="26" cy="132" r="6"/>
+            </g>
+            <path class="line-plain" d="M36 32 L 98 74"/><path class="line-plain" d="M36 65 L 98 80"/>
+            <path class="line-plain" d="M36 99 L 98 88"/><path class="line-plain" d="M36 133 L 98 94"/>
+            <rect class="algo-box" x="100" y="64" width="60" height="40" rx="6"/>
+            <text x="130" y="88" class="box-label">same tool</text>
+            <path class="line-accent" d="M160 72 L 203 33"/>
+            <path class="line-accent" d="M160 78 L 203 39"/>
+            <path class="line-accent" d="M160 86 L 203 85"/>
+            <path class="line-accent" d="M160 92 L 203 91"/>
+            <circle class="accent-dot" cx="212" cy="36" r="8"/>
+            <circle class="accent-dot" cx="212" cy="88" r="8"/>
+            <circle class="dot-ghost" cx="212" cy="132" r="8"/>
+            <text class="mid" x="212" y="18">chosen</text>
+            <text class="mid" x="212" y="158">overlooked</text>
+          </svg>
+        </figure>
+        <div class="study-body">
+          <p class="study-stat">Theoretical model · "algorithmic monoculture"</p>
+          <h3>Even accurate shared tools can leave options overlooked</h3>
+          <p><a href="https://www.pnas.org/doi/10.1073/pnas.2018340118" target="_blank" rel="noreferrer">Kleinberg and Raghavan's (2021)</a> mathematical model of "algorithmic monoculture" examines situations in which multiple decision makers use the same ranking algorithm.</p>
+          <ul>
+            <li>Even when the algorithm is <strong>more accurate</strong> than independent alternatives, the overall quality of the decisions made can be lower</li>
+            <li>Everyone is directed toward the same highly ranked options, leaving other suitable options overlooked</li>
+            <li>Individual creativity and independent judgment have collective value partly because <strong>different people are more likely to notice different possibilities</strong></li>
+            <li><em>Limitation:</em> This is a formal model of a mechanism. It is not a measurement of any specific AI product.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="research-verdict">
+        <p>Widespread adoption of these tools can make creative work more alike, concentrate cultural expression around dominant norms, influence users' beliefs, and overconcentrate scientific attention in already-established areas. However, these outcomes are not unavoidable. Using AI in ways that preserve independent thought, for example as a resource alongside human ideas, has the potential to preserve or even increase collective diversity.</p>
+      </div>
+
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ STRATEGIES ============ -->
+  <section class="band" id="habits">
+    <div class="wrap">
+      <h2>What you can do: five strategies</h2>
+      <p class="section-intro">These strategies are my own deductions from the research. Each one is meant to make sure that some of the thinking exists and belongs to you before, during, and after the tool is involved.</p>
+
+      <div class="habit-grid">
+        <div class="habit-card">
+          <span class="habit-num">01</span>
+          <h3>Write down your thinking first</h3>
+          <p>Write for a minute before opening the tool. A first attempt does not need to be good to give you an independent reference point.</p>
+        </div>
+        <div class="habit-card">
+          <span class="habit-num">02</span>
+          <h3>Ask for contrast</h3>
+          <p>Five answers can still express one underlying assumption. Request approaches that are based on genuinely different values, disciplines, cultures, or objections.</p>
+        </div>
+        <div class="habit-card">
+          <span class="habit-num">03</span>
+          <h3>Use AI as a critic</h3>
+          <p>Ask what is unclear, unsupported, or missing in your work. Questions and counterarguments help you keep ownership of the draft.</p>
+        </div>
+        <div class="habit-card">
+          <span class="habit-num">04</span>
+          <h3>Leave time to revise</h3>
+          <p>Reading, selecting, and revising are part of understanding the work. Automating every difficult step can remove chances to develop judgment.</p>
+        </div>
+        <div class="habit-card">
+          <span class="habit-num">05</span>
+          <h3>Check people and primary sources</h3>
+          <p>Follow citations, compare communities, and ask who is missing from the answer. AI can help locate material, and the sources still need to be checked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROMPTS ============ -->
+  <section class="band band-tint" id="prompts">
+    <div class="wrap">
+      <h2>Prompt examples</h2>
+      <p class="section-intro">These prompts give the tool a clearer role by asking it to respond to your work, present alternatives, or help you plan what to verify.</p>
+
+      <div class="prompt-grid">
+        <div class="prompt-card">
+          <p class="prompt-use">Brainstorming</p>
+          <p class="prompt-goal">Make the options meaningfully different</p>
+          <blockquote class="prompt-text">I already have these ideas: [paste your ideas]. Suggest three additional directions that begin from genuinely different assumptions. Explain the assumption behind each direction. Do not rank them or choose for me.</blockquote>
+          <button class="copy-btn" data-copy aria-live="polite">Copy prompt</button>
+        </div>
+        <div class="prompt-card">
+          <p class="prompt-use">Revising</p>
+          <p class="prompt-goal">Ask for diagnosis of the draft</p>
+          <blockquote class="prompt-text">Read my draft and identify two places where my reasoning is unclear or unsupported. Ask me one question about each place. Preserve my wording and do not rewrite the passage.</blockquote>
+          <button class="copy-btn" data-copy aria-live="polite">Copy prompt</button>
+        </div>
+        <div class="prompt-card">
+          <p class="prompt-use">Researching</p>
+          <p class="prompt-goal">Map the search and then verify it</p>
+          <blockquote class="prompt-text">For this research question [your question], suggest search terms, relevant disciplines, and two competing viewpoints. Do not invent sources or citations. I will verify each claim using library databases or primary sources.</blockquote>
+          <button class="copy-btn" data-copy aria-live="polite">Copy prompt</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CHECKLIST + TAKEAWAY ============ -->
+  <section class="band" id="checklist">
+    <div class="wrap">
+      <h2>Before using AI</h2>
+      <p class="section-intro">Following these rules of AI use can encourage creative thinking rather than replacing it. Check each statement below before consulting AI:</p>
+
+      <div class="check-grid" role="group" aria-label="Before using AI checklist">
+        <button class="check-card" aria-pressed="false">
+          <span class="check-box" aria-hidden="true"></span>
+          <span><strong>I have put down a starting point of my own.</strong><small>A question, an opinion, a rough outline, or a messy list is enough.</small></span>
+        </button>
+        <button class="check-card" aria-pressed="false">
+          <span class="check-box" aria-hidden="true"></span>
+          <span><strong>I know what kind of help I am asking for.</strong><small>Decide whether you want feedback, an explanation, or alternative ideas.</small></span>
+        </button>
+        <button class="check-card" aria-pressed="false">
+          <span class="check-box" aria-hidden="true"></span>
+          <span><strong>I am leaving room for more than one direction.</strong><small>Make room for several different assumptions when you ask for ideas.</small></span>
+        </button>
+        <button class="check-card" aria-pressed="false">
+          <span class="check-box" aria-hidden="true"></span>
+          <span><strong>I have a plan to verify important claims.</strong><small>Treat AI output as a suggestion until a reliable source supports it.</small></span>
+        </button>
+      </div>
+      <p class="check-status" aria-live="polite"><span id="check-count">0 of 4</span> — <span id="check-msg">aim to complete all four before starting.</span></p>
+
+      <div class="research-verdict takeaway">
+        <p><strong>The takeaway:</strong> As adoption grows, the impact of LLMs will depend partly on how individuals and institutions decide to use them. The greatest risk is that real individual gains may hide a broader reality of collective homogenization. Bring your own starting point, ask for contrast, verify what matters, and let the tool respond to your thinking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOURCES + AUTHOR'S NOTE ============ -->
+  <section class="band band-tint" id="sources">
+    <div class="wrap">
+      <details class="authors-note" id="source-list">
+        <summary>Sources</summary>
+        <div class="note-body">
+          <ul class="references">
+            <li>Agarwal, D., Naaman, M., &amp; Vashistha, A. (2025). <a href="https://doi.org/10.1145/3706598.3713564" target="_blank" rel="noreferrer">AI suggestions homogenize writing toward Western styles and diminish cultural nuances.</a> <em>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em>, Article 1117, 1–21.</li>
+            <li>Ashkinaze, J., Mendelsohn, J., Li, Q., Budak, C., &amp; Gilbert, E. (2025). <a href="https://doi.org/10.1145/3715928.3737481" target="_blank" rel="noreferrer">How AI ideas affect the creativity, diversity, and evolution of human ideas: Evidence from a large, dynamic experiment.</a> <em>Proceedings of the Collective Intelligence Conference</em>, 198–213. Association for Computing Machinery.</li>
+            <li>Doshi, A. R., &amp; Hauser, O. P. (2024). <a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank" rel="noreferrer">Generative AI enhances individual creativity but reduces the collective diversity of novel content.</a> <em>Science Advances, 10</em>(28), eadn5290.</li>
+            <li>Hao, Q., Xu, F., Li, Y., &amp; Evans, J. (2026). <a href="https://doi.org/10.1038/s41586-025-09922-y" target="_blank" rel="noreferrer">Artificial intelligence tools expand scientists' impact but contract science's focus.</a> <em>Nature, 649</em>, 1237–1243.</li>
+            <li>Kleinberg, J., &amp; Raghavan, M. (2021). <a href="https://www.pnas.org/doi/10.1073/pnas.2018340118" target="_blank" rel="noreferrer">Algorithmic monoculture and social welfare.</a> <em>Proceedings of the National Academy of Sciences, 118</em>(22), e2018340118.</li>
+            <li>Williams-Ceci, S., Jakesch, M., Bhat, A., Kadoma, K., Zalmanson, L., &amp; Naaman, M. (2026). <a href="https://doi.org/10.1126/sciadv.adw5578" target="_blank" rel="noreferrer">Biased AI writing assistants shift users' attitudes on societal issues.</a> <em>Science Advances, 12</em>(11), eadw5578.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="authors-note" id="reflection">
+        <summary>Reflection</summary>
+        <div class="note-body">
+          <p>My goal for this project was to reformat my research argument into a website useful for college students who use, or are considering using, AI for writing, research, or brainstorming. I chose a website as my medium because it allows me to display main ideas clearly and provide optional depth if a section interested the viewer. I was able to use visual examples, expandable explanations, and short headers to achieve this. The hardest part of the process was deciding how much of my research should be included. Since my original topic depended on research papers I didn't want to make unsubstantiated claims in the site but I also wanted it to be digestible. Experiencing that challenge taught me the importance of deciding what information you bring to your audience, whereas initially I assumed design would be most important.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p><strong>Preserving Independent Thought in the Age of AI</strong> · Benjamin Paul · ENGL 2010 · Summer 2026</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
